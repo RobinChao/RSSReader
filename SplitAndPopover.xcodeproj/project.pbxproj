@@ -11,22 +11,11 @@
 		00A36B9C1A4D8199000C8F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A36B9A1A4D8199000C8F62 /* Main.storyboard */; };
 		00A36B9E1A4D8199000C8F62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A36B9D1A4D8199000C8F62 /* Images.xcassets */; };
 		00A36BA11A4D8199000C8F62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A36B9F1A4D8199000C8F62 /* LaunchScreen.xib */; };
-		00A36BAD1A4D8199000C8F62 /* SplitAndPopoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A36BAC1A4D8199000C8F62 /* SplitAndPopoverTests.swift */; };
 		00A36BBA1A4D81B5000C8F62 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A36BB61A4D81B5000C8F62 /* ContainerViewController.swift */; };
 		00A36BBB1A4D81B5000C8F62 /* TopicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A36BB71A4D81B5000C8F62 /* TopicsTableViewController.swift */; };
 		00A36BBC1A4D81B5000C8F62 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A36BB81A4D81B5000C8F62 /* TutorialViewController.swift */; };
 		00A36BBD1A4D81B5000C8F62 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A36BB91A4D81B5000C8F62 /* XMLParser.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		00A36BA71A4D8199000C8F62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00A36B891A4D8199000C8F62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 00A36B901A4D8199000C8F62;
-			remoteInfo = SplitAndPopover;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00A36B911A4D8199000C8F62 /* SplitAndPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitAndPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,9 +24,6 @@
 		00A36B9B1A4D8199000C8F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A36B9D1A4D8199000C8F62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00A36BA01A4D8199000C8F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		00A36BA61A4D8199000C8F62 /* SplitAndPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAndPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00A36BAB1A4D8199000C8F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00A36BAC1A4D8199000C8F62 /* SplitAndPopoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAndPopoverTests.swift; sourceTree = "<group>"; };
 		00A36BB61A4D81B5000C8F62 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		00A36BB71A4D81B5000C8F62 /* TopicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewController.swift; sourceTree = "<group>"; };
 		00A36BB81A4D81B5000C8F62 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
@@ -52,13 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00A36BA31A4D8199000C8F62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				00A36B931A4D8199000C8F62 /* SplitAndPopover */,
-				00A36BA91A4D8199000C8F62 /* SplitAndPopoverTests */,
 				00A36B921A4D8199000C8F62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				00A36B911A4D8199000C8F62 /* SplitAndPopover.app */,
-				00A36BA61A4D8199000C8F62 /* SplitAndPopoverTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,23 +81,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00A36BA91A4D8199000C8F62 /* SplitAndPopoverTests */ = {
-			isa = PBXGroup;
-			children = (
-				00A36BAC1A4D8199000C8F62 /* SplitAndPopoverTests.swift */,
-				00A36BAA1A4D8199000C8F62 /* Supporting Files */,
-			);
-			path = SplitAndPopoverTests;
-			sourceTree = "<group>";
-		};
-		00A36BAA1A4D8199000C8F62 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00A36BAB1A4D8199000C8F62 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,24 +101,6 @@
 			productReference = 00A36B911A4D8199000C8F62 /* SplitAndPopover.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00A36BA51A4D8199000C8F62 /* SplitAndPopoverTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00A36BB31A4D8199000C8F62 /* Build configuration list for PBXNativeTarget "SplitAndPopoverTests" */;
-			buildPhases = (
-				00A36BA21A4D8199000C8F62 /* Sources */,
-				00A36BA31A4D8199000C8F62 /* Frameworks */,
-				00A36BA41A4D8199000C8F62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00A36BA81A4D8199000C8F62 /* PBXTargetDependency */,
-			);
-			name = SplitAndPopoverTests;
-			productName = SplitAndPopoverTests;
-			productReference = 00A36BA61A4D8199000C8F62 /* SplitAndPopoverTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,10 +112,6 @@
 				TargetAttributes = {
 					00A36B901A4D8199000C8F62 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					00A36BA51A4D8199000C8F62 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 00A36B901A4D8199000C8F62;
 					};
 				};
 			};
@@ -191,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				00A36B901A4D8199000C8F62 /* SplitAndPopover */,
-				00A36BA51A4D8199000C8F62 /* SplitAndPopoverTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,13 +141,6 @@
 				00A36B9C1A4D8199000C8F62 /* Main.storyboard in Resources */,
 				00A36BA11A4D8199000C8F62 /* LaunchScreen.xib in Resources */,
 				00A36B9E1A4D8199000C8F62 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		00A36BA41A4D8199000C8F62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00A36BA21A4D8199000C8F62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00A36BAD1A4D8199000C8F62 /* SplitAndPopoverTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00A36BA81A4D8199000C8F62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 00A36B901A4D8199000C8F62 /* SplitAndPopover */;
-			targetProxy = 00A36BA71A4D8199000C8F62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		00A36B9A1A4D8199000C8F62 /* Main.storyboard */ = {
@@ -364,40 +278,6 @@
 			};
 			name = Release;
 		};
-		00A36BB41A4D8199000C8F62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SplitAndPopoverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitAndPopover.app/SplitAndPopover";
-			};
-			name = Debug;
-		};
-		00A36BB51A4D8199000C8F62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SplitAndPopoverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitAndPopover.app/SplitAndPopover";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,15 +295,6 @@
 			buildConfigurations = (
 				00A36BB11A4D8199000C8F62 /* Debug */,
 				00A36BB21A4D8199000C8F62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		00A36BB31A4D8199000C8F62 /* Build configuration list for PBXNativeTarget "SplitAndPopoverTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00A36BB41A4D8199000C8F62 /* Debug */,
-				00A36BB51A4D8199000C8F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
